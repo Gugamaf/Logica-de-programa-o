@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função que recebe mais de um parâmetro</title>
+</head>
+<body>
+    <h1>Função que recebe mais de um parâmetro</h1>
+
+    <script>
+        function pulaLinha(){
+            document.write("<br>");
+        }
+        function mostra (frase){
+            document.write(frase);
+            pulaLinha();
+        }
+        function somaDoisNumeros (n1, n2){
+        mostra("A soma dos dois numero é: " + (n1 + n2))
+        }
+        somaDoisNumeros (10, 20)
+        
+    </script>
+    
+</body>
+</html>
